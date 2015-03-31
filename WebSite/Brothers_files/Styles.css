@@ -1,0 +1,50 @@
+@charset "utf-8";
+/*created by Sean Gray 3/6/15*/
+/* CSS Document */
+/*poitioning for the header so it is not on top of crest*/
+#Title
+{
+	position: absolute;
+	left: 155px;
+	top: 7px;
+}
+/*possitioning the nav bar*/
+#NavBar
+{
+	position: absolute;
+	left:190px;
+	top:140px;
+	
+}
+/*used to continue the red bar past the menu*/
+#Bar
+{
+	position: absolute;
+	background-color:#8D1B3D;
+	top:140px;
+	left:177px;
+	width:90%;
+	height:43px;
+	z-index:-1;
+}
+.SectionTitle
+{
+	text-align: center;
+	font-size:20px;
+}
+.photo
+{
+	-moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+     box-shadow: 0 0 5px #888;
+}
+.brothername
+{
+	font-size:20px;
+	font-weight: bold;
+}
+/*formating for not eboard cells*/
+.noneboarnames
+{
+	
+}

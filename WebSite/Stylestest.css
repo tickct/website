@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+} 
+	
+}
+
+
+#navlist ul, #navlist li
+{
+margin: 0;
+padding: 0;
+display: inline;
+list-style-type: none;
+
+}
+
+#navlist a:link, #navlist a:visited
+{
+float: right;
+line-height: 14px;
+font-weight: bold;
+margin: 0 10px 4px 10px;
+text-decoration: none;
+color: #ffffff;
+}
+
+#navlist a:link#current, #navlist a:visited#current, #navlist a:hover
+{
+background: transparent;
+color: #000;
+}
+
+#navlist a:hover { color: #000; }
+#redbox {
+	position: absolute;
+	float: right;
+	background-color: #8D1B3D;
+	z-index: 1;
+	width: 3930px;
+	Hight: 10%;
+	top: 138px;
+	height: 42px;
+	left: 176px;
+}
